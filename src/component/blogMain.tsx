@@ -69,7 +69,7 @@ export default function BlogMain(props:Props):JSX.Element{
                                         </div>
                                     </a>
                                 </Link>
-                                <h6 className=''>{sliceDate(item.properties.created_time.content)}</h6>
+                                {/* <h6 className=''>{sliceDate(item.properties.created_time.content)}</h6> */}
                                 <h3 className=''>{item.properties.title.title[0].text.content}</h3>
                                 <div className=''>
                                     {item.properties.tag.multi_select.map((tag:Tag,Index_tag:number)=>(
