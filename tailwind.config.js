@@ -9,6 +9,7 @@ module.exports = {
         "about-pc":"url('/bg-about.png')",
         "skill-pc":"url('/bg-skills.png')",
         "future-pc":"url('/bg-future.png')",
+        "hero-pc":"url('/bg-Hero.png')"
         
       }),
       colors: {
